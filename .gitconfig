@@ -1,0 +1,21 @@
+[user]
+    name = philib_i
+    email = philib_i@etna-alternance.net
+[core]
+    editor = vim
+    autocrlf = input
+[init]
+    defaultBranch = main
+[color]
+    ui = auto
+[pull]
+    rebase = false
+[push]
+    autoSetupRemote = true
+[alias]
+    st = status -sb
+    co = checkout
+    br = branch
+    cm = commit -m
+    lg = log --oneline --graph --decorate --all
+    last = log -1 HEAD --stat
